@@ -1,0 +1,181 @@
+span {
+    background: white!important;
+}
+
+
+
+.navbar-toggler-icon{
+    background-color:gray;
+}
+
+
+img{
+    width:100%;
+    height:660px;
+    object-fit: cover;
+    line-height:0;
+    
+    
+}
+
+
+.first{
+position: relative;
+
+ 
+}
+
+.first p {
+    position: absolute;
+   font-size:80px;
+   color:Gold;
+   top:130px;
+   left:20px;
+    font-family:"price";
+    margin:0;
+    letter-spacing:0;
+    width:100%;
+    height:auto;
+}
+
+@font-face {
+font-family: 'beautiful';
+src: url('../portfolio3/font.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'price';
+src: url('../portfolio3/MorningBrew-Regular.otf') format('opentype');
+}
+
+.second{
+position: relative;
+
+}
+
+.second p {
+    left:85px;
+    top:250px;
+    position:absolute;
+    color:gold;
+    font-size:20px;
+    font-family:'price';
+    width:100%;
+    height:auto;
+     
+}
+
+.thard{
+position: relative;
+}
+.thard p {
+    left:5px;
+    top:255px;
+    position:absolute;
+    color:gold;
+    font-size:15px;
+    font-family:'price';
+   width:100%;
+    height:auto;
+}
+
+.forth{
+position: relative;
+
+}
+.forth p {
+    left:40px;
+    top:250px;
+    right:30px;
+    position:absolute;
+    color:gold;
+    font-size:35px;
+    font-family:'price';
+    text-align:center;
+}
+
+button{
+    color:white;
+    font-family:'price';
+    margin-top:20px;
+    font-size:20px;
+    text-align:center;
+text-decoration:none;
+background-color: transparent;
+ border-style:none;
+ text-decoration: underline;
+
+}
+
+p2{
+    color:gold;
+    font-size:5px;
+    top:30px;
+    margin-right:20px;
+    margin-bottom:40px;
+    font-family: "BIZ UDPゴシック","BIZ UDPGothic"; font-weight: bold;
+}
+p3{
+    font-family: "BIZ UDPゴシック","BIZ UDPGothic"; font-weight: bold;
+}
+
+
+.nav-item{
+    
+}
+
+.section second{
+    padding: 120px;
+    transition:.5s;
+}
+ 
+.section second.active{
+    background: #666;
+    color: #fff;
+}
+.section thard a {
+    color:white;
+}
+
+.map{
+    color:gold;
+     text-decoration: underline;
+
+}
+
+.map:hover{
+	color:gold;
+	font-family:'Gainsboro';
+}
+
+.nav-link1{
+  color:gray;
+  font-family:'Gainsboro';
+}
+.nav-link2{
+  color:gray;
+  font-family:'Gainsboro';
+}
+.nav-link3{
+  color:gray;
+  font-family:'Gainsboro';
+}
+.nav-link4{
+  color:gray;
+  font-family:'Gainsboro';
+}
+
+
+.btn-success{
+    font-size:10px;
+}
+
+.homepage{
+    color:white;
+    font-size:14px;
+     text-decoration: underline;
+}
+
+
+
+

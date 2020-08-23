@@ -1,0 +1,245 @@
+@-webkit-keyframes bg-color {
+  0% { background-color:  #FFFFF0; }
+  20% { background-color:  #FFFFF0; }
+  40% { background-color:  #FFFFF0; }
+  60% { background-color: white; }
+  80% { background-color: white; }
+  100% { background-color: white; }
+}
+
+@-webkit-keyframes bg-2color {
+  0% { background-color:#FFFAFA; }
+  20% { background-color: white; }
+  40% { background-color: white; }
+  60% { background-color:  #FFFFF0; }
+  80% { background-color: #FAF0E6; }
+  100% { background-color: #FFFAFA; }
+}
+
+@-webkit-keyframes animation {
+    0% {
+        opacity:0;
+    }
+    20%{
+      opacity:0;
+    }
+    35% {
+        opacity:1;
+    }
+    50%{
+       opacity:1;
+    }
+    60%{
+       opacity:1;
+    }
+    80% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+    
+}
+
+@font-face {
+  font-family: myfont;
+  src: url('../portfolio/Damion-Regular.ttf') format("truetype");
+}
+
+
+h1{
+    margin-left:190px;
+    margin-bottom:0;
+    font-weight:lighter;
+    font-size:70px;
+    font-family:myfont;
+    letter-spacing:6px;
+   text-align:center;
+   background-color:white;
+   /*border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;*/
+   position:relative;
+   margin-top:0;
+   color:teal;
+   /*-webkit-animation: bg-2color 7s infinite;*/
+}
+
+/*
+h2{
+    margin-left:130px;
+    margin-top:17px;
+    position:absolute;
+    background-color:skyblue;
+    width:140px;
+    height:115px;
+    border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+    
+    
+  -webkit-animation: bg-color 5s infinite;
+}
+
+*/
+
+li{
+    display:inline-block;
+    font-family:myfont;
+    margin-top:70px;
+    margin-right:10px;
+    padding-right:30px;
+}
+
+li:hover{
+  transform: scale(1.4);
+  transition-duration: 0.2s;
+}
+
+a{
+    color:teal;
+    font-size:19px;
+    font-family:myfont;
+    width:100px;
+}
+
+button{
+    font-size:10px;
+    background-color:#FFFFF0;
+    border-radius:40px 30px 40px 30px;
+    color:gray;
+    outline: none;
+    border-color:white;
+    
+}
+
+ul li{
+    list-style:none;
+    
+}
+
+nav{margin-right:160px;}
+
+
+
+.lazyload{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width:70%;
+    height:550px;
+    margin-bottom:40px;
+    -webkit-animation: animation 5s infinite;
+}
+
+
+body{
+    margin-right:0;
+    margin-left:0;
+   
+    
+}
+.insta{
+    background-color:white;
+}
+
+footer{
+    text-align:center;
+}
+p{
+     font-family:"Times New Roman";
+     font-weight:lighter;
+     font-size:20px;
+     
+     margin:0;
+     
+}
+.explain{
+    font-size:15px;
+    color:gray;
+   background-color:white;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:700px;
+    padding-bottom:40px;
+}
+
+
+
+.contact{
+    text-align:center;
+    font-size:30px;
+    font-family:myfont;
+   color:teal;
+   
+   
+display: inline-block;
+   border-bottom: solid 2px silver;
+}
+
+.mail{
+    background-color:white;
+    width:100px;
+    color:gray;
+    font-size:15px;
+    text-align:center;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:80px;
+}
+.about{
+    font-size:30px;
+   font-family:myfont;
+    text-align:center;
+    border-bottom: solid 2px silver;
+    color:teal;
+    background-color:white;
+  display: inline-block;
+  
+    
+}
+.portfolio{
+    font-size:30px;
+   font-family:myfont;
+    color:teal;
+    background-color:white;
+   
+   border-bottom: solid 2px silver;
+   display: inline-block;
+   margin-bottom:0;
+   padding-bottom:0;
+}
+
+.picture{
+  width:270px;
+  height:180px;
+}
+.picture:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.fujisan{
+  width:100%;
+  height:400px;
+  margin-bottom:0;
+  padding-bottom:0;
+  
+}
+
+.mail a{
+  font-size:14px;
+  width:40px;
+}
+
+.mail:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
