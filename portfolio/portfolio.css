@@ -295,4 +295,8 @@ html{
 body{
   height:100%;
 }
-
+.content{
+  border-top: 2px dotted gray;
+  margin-left:20px;
+  padding-top:30px;
+}
