@@ -282,5 +282,17 @@ h2{
   box-shadow: none;
   height:20px;
 }
+.footer{
+  font-size:15px;
+  background-color:#008080;
+  color:white;
+ padding:25px;
+}
 
+html{
+  height:100%;
+}
+body{
+  height:100%;
+}
 
