@@ -180,7 +180,7 @@ p{
     text-align:center;
     font-size:30px;
     font-family:myfont;
-   color:teal;
+   color:black;
    
    
     display: inline-block;
@@ -203,7 +203,7 @@ p{
    font-family:myfont;
     text-align:center;
    
-    color:teal;
+    color:black;
     background-color:white;
   display: inline-block;
   
@@ -212,7 +212,7 @@ p{
 .portfolio{
     font-size:30px;
    font-family:myfont;
-    color:teal;
+    color:black;
     background-color:white;
    
    
