@@ -44,22 +44,23 @@ header{
     display:flex;
     justify-content:space-between;
     margin-bottom:30px;
-    
+   
 }
 
 @font-face {
   font-family: myfont;
-  src: url('../portfolio/Damion-Regular.ttf') format("truetype");
+  src: url('Damion-Regular.ttf') format("truetype");
 }
 
 
 h1{
-    margin-left:190px;
+    margin-left:140px;
+    padding-left:20px;
     margin-bottom:0;
     font-weight:lighter;
-    font-size:70px;
+    font-size:45px;
     font-family:myfont;
-    letter-spacing:6px;
+    letter-spacing:5px;
    text-align:center;
    background-color:white;
    /*border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;*/
@@ -88,9 +89,10 @@ h2{
 li{
     display:inline-block;
     font-family:myfont;
-    margin-top:70px;
+    margin-top:45px;
     margin-right:10px;
-    padding-right:30px;
+    padding-right:15px;
+    font-size:5px;
 }
 
 li:hover{
@@ -100,7 +102,7 @@ li:hover{
 
 a{
     color:teal;
-    font-size:19px;
+    font-size:15px;
     font-family:myfont;
     width:100px;
 }
@@ -120,7 +122,10 @@ ul li{
     
 }
 
-nav{margin-right:160px;}
+nav{
+margin-right:160px;
+  
+}
 
 
 
@@ -128,8 +133,8 @@ nav{margin-right:160px;}
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-    width:70%;
+    border-style:none;
+    width:75%;
     height:550px;
     margin-bottom:40px;
     -webkit-animation: animation 5s infinite;
@@ -178,8 +183,8 @@ p{
    color:teal;
    
    
-display: inline-block;
-   border-bottom: solid 2px silver;
+    display: inline-block;
+  
 }
 
 .mail{
@@ -197,7 +202,7 @@ display: inline-block;
     font-size:30px;
    font-family:myfont;
     text-align:center;
-    border-bottom: solid 2px silver;
+   
     color:teal;
     background-color:white;
   display: inline-block;
@@ -210,15 +215,15 @@ display: inline-block;
     color:teal;
     background-color:white;
    
-   border-bottom: solid 2px silver;
+   
    display: inline-block;
    margin-bottom:0;
    padding-bottom:0;
 }
 
 .picture{
-  width:270px;
-  height:180px;
+  width:200px;
+  height:140px;
 }
 .picture:hover{
   transform: scale(1.2);
@@ -242,4 +247,40 @@ display: inline-block;
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
+
+
+.pc{
+font-size:7px;
+color:gray;
+}
+
+.topPage{
+  position: relative;
+}
+
+h2{
+  font-size:15px;
+  position: absolute;
+  background-color:#008080;
+  color:white;
+  top: 350px;
+  left:50px;
+  font-weight:lighter;
+  padding:15px;
+  line-height:30px;
+}
+
+
+::-webkit-scrollbar{
+  height:30px;
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 20px;
+  box-shadow: none;
+  height:20px;
+}
+
 
