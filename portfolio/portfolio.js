@@ -1,9 +1,9 @@
-const pics_src = ["images-3.jpg","images-2.jpg","images-4.jpg"];
+const pics_src = ["images-1.jpg","images-3.jpg","images-2.jpg","images-4.jpg"];
 let num = -1;
  
  
 function slideshow_timer(){
-  if (num === 2){
+  if (num === 3){
     num = 0;
   } 
   else {
@@ -17,16 +17,7 @@ function slideshow_timer(){
 setInterval(slideshow_timer, 5000);
 
 
-
-
-
-
-
-
-
-
-
- $ ('#menu-1').on('click',(e)=>{
+ $ ('.nav1').on('click',(e)=>{
    e.preventDefault();
    window.scrollTo(0,750);
  });
@@ -34,4 +25,41 @@ setInterval(slideshow_timer, 5000);
  
  
  
+ $ ('.nav3').on('click',(e)=>{
+   e.preventDefault();
+   window.scrollTo(0,1500);
+ });
+
+
+
+
+
+document.querySelector('.navbar-toggler').onclick = function() {
+    
+    if(document.getElementById('navbar').classList.contains('show')) {
+        document.querySelector('#navbar').classList.remove('show');
+    } else {
+      document.querySelector('#navbar').classList.add('show');
+    }
+}
+
+
+
+
+$('.animated').waypoint({
+  handler(direction) {
+    if (direction === 'down') {
+      $(this.element).addClass('fadeInUp');
+    }
+  },
+  offset: '90%',
+});
+
+
+
+
+
+
+
+
 
