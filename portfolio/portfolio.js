@@ -1,9 +1,9 @@
-const pics_src = ["images-1.jpg","images-3.jpg","images-2.jpg","images-4.jpg"];
+const pics_src = ["images-1.jpg","images-3.jpg","images-2.jpg","images-4.jpg","images-5.jpg","images-6.jpg","images-7.jpg"];
 let num = -1;
  
  
 function slideshow_timer(){
-  if (num === 3){
+  if (num === 6){
     num = 0;
   } 
   else {
@@ -55,11 +55,19 @@ $('.animated').waypoint({
   offset: '90%',
 });
 
-
-
-
-
-
-
-
-
+$('.animated').waypoint({
+  handler(direction) {
+    if (direction === 'up') {
+      $(this.element).addClass('fadeUp');
+    }
+  },
+  offset: '100%',
+});
+$('.animated').waypoint({
+  handler(direction) {
+    if (direction === 'up') {
+      $(this.element).addClass('fadeUpUp');
+    }
+  },
+  offset: '80%',
+});
