@@ -136,7 +136,7 @@ p{
     margin-left:auto;
     margin-right:auto;
     text-align:center;
-    width:700px;
+    width:800px;
     padding-bottom:40px;
     font-family:"Times New Roman";
 }
@@ -191,11 +191,18 @@ p{
 }
 
 .picture{
-  width:200px;
+  width:220px;
   height:140px;
- 
+ float:left;
+  margin-right:30px;
 }
 .picture:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  
+}
+
+.picture animated{
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
@@ -225,6 +232,8 @@ p{
 .pc{
 font-size:15px;
 color:gray;
+text-align:left;
+margin-left:30px;
 }
 
 .topPage{
@@ -310,3 +319,17 @@ p2{
 .fadeInUp{
   opacity:1;
 }
+
+.fadeUp{
+  opacity:0;
+}
+.fadeUpUp{
+  opacity:1;
+}
+
+.production{
+   margin:auto;
+  
+  width:1300px;
+}
+
